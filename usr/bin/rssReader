@@ -1,4 +1,4 @@
 #!/bin/bash
 # Wrapper script PHP
 
-php ../share/cw1-6005-yl20e11/index.php $@
+php usr/share/cw1-6005-yl20e11/index.php $@
