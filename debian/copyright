@@ -1,20 +1,18 @@
 This work was packaged for Debian by:
 
-    lenovo <yl20e11@ecs.soton.ac.uk> on Thu, 23 Feb 2012 05:51:59 +0800
+    Yuandong Liang <yl20e11@ecs.soton.ac.uk> on Thu, 23 Feb 2012 05:51:59 +0800
 
 It was downloaded from:
 
-    <url://example.com>
+    https://github.com/lyd-soton/cw1-6005-yl20e11
 
 Upstream Author(s):
 
-    <put author's name and email here>
-    <likewise for another author>
+    Yuandong Liang <yl20e11@ecs.soton.ac.uk>
 
 Copyright:
 
-    <Copyright (C) YYYY Firstname Lastname>
-    <likewise for another author>
+    <Copyright (C) 2012 Yuandong Liang>
 
 License:
 
@@ -36,7 +34,7 @@ Public License version 3 can be found in `/usr/share/common-licenses/GPL-3'.
 
 The Debian packaging is:
 
-    Copyright (C) 2012 lenovo <yl20e11@ecs.soton.ac.uk>
+    Copyright (C) 2012 Yuandong Liang <yl20e11@ecs.soton.ac.uk>
 
 # Please chose a license for your packaging work. If the program you package
 # uses a mainstream license, using the same license is the safest choice.
@@ -45,6 +43,3 @@ The Debian packaging is:
 # If you just want it to be GPL version 3, leave the following line in.
 
 and is licensed under the GPL version 3, see above.
-
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
