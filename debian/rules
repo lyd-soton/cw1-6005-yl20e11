@@ -9,6 +9,15 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+phpscript = $(CURDIR)/usr/bin/rssReader
+feeds = $(CURDIR)/etc/cw1-6005-yl20e11/feeds.conf
+index = $(CURDIR)/usr/share/cw1-6005-yl20e11/index.php
+rss = $(CURDIR)/usr/share/cw1-6005-yl20e11/rss_php.php
+
+path1 = $(CURDIR)/debian/cw1-6005-yl20e11/usr/share/cw1-6005-yl20e11
+path2 = $(CURDIR)/debian/cw1-6005-yl20e11/usr/bin
+path3 = $(CURDIR)/debian/cw1-6005-yl20e11/etc/cw1-6005-yl20e11
+
 build: build-stamp
 build-stamp:
 	dh_testdir
@@ -20,13 +29,22 @@ clean:
 	rm -f build-stamp configure-stamp
 	dh_clean
 
-install: build clean 
+install: build clean $(phpscript) $(feeds) $(index) $(rss)
 	dh_testdir
 	dh_testroot
 	dh_clean -k
 	dh_prep
 	dh_installdirs
 	
+	mkdir -m 755 -p $(path1)
+	mkdir -m 755 -p $(path2)
+	mkdir -m 755 -p $(path3)
+
+	install -m 644 $(index) $(path1)
+	install -m 644 $(rss) $(path1)
+	install -m 755 $(phpscript) $(path2)
+	install -m 644 $(feeds) $(path3)
+
 binary-indep: build install
 	dh_testdir
 	dh_testroot
