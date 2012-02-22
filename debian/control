@@ -1,13 +1,14 @@
-Source: package
-Section: unknown
-Priority: extra
-Maintainer: lenovo <yl20e11@ecs.soton.ac.uk>
+Source: cw1-6005-yl20e11
+Section: web
+Priority: optional
+Maintainer: yuandong liang <yl20e11@ecs.soton.ac.uk>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.3
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/lyd-soton/cw1-6005-yl20e11
 
-Package: package
+Package: w1-6005-yl20e11
 Architecture: all
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${misc:Depends},php5-cli(>=5)
+Description: a php rss reader
+ Author: University of Southamoton, Electronics and Computer Science
+	Published: 30th Jan 2012 
