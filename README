@@ -1,0 +1,3 @@
+this is a simple php rss reader.
+you can install it by command line: dpkg -i package-path/cw1-6005-yl20e11
+and execute it by command line: rssReader
