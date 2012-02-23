@@ -1,87 +1,69 @@
 cw1-6005-yl20e11 (1.0.0) stable; urgency=low
-
   * using lintian command line to test package
   * modify rules file and usr/bin/rssReader
-  * As this is a new repository based on a previous one (which i have deleted), there should be some actions in testing the package, such as modify copyright file and control to fix errors
-
- -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Thu, 23 Feb 2012 
+  * As this is a new repository based on a previous one (which i 
+  * have deleted), there should be some actions in testing the package, 
+  * such as modify copyright and control files to fix errors
+ -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Thu, 23 Feb 2012 00:00:00 -0000
 
 
 
 cw1-6005-yl20e11 (0.8.0) unstable; urgency=low
-
   * solve package name problem in changelog, control file
   * modify README file
   * change format value to 2.0
-
- -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Thu, 22 Feb 2012 
+ -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 00:00:00 -0000
 
 
 
 cw1-6005-yl20e11 (0.6.0) unstable; urgency=low
-
   * add source/format in debian folder
-
- -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Thu, 22 Feb 2012 
+ -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 00:00:00 -0000
 
 
 
 cw1-6005-yl20e11 (0.5.0) unstable; urgency=low
-
   * modify rules file
-
- -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Thu, 22 Feb 2012 
+ -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 00:00:00 -0000
 
 
 
 cw1-6005-yl20e11 (0.2.0) unstable; urgency=low
-
   * modify copyright file
-
- -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Thu, 22 Feb 2012 
+ -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 00:00:00 -0000
 
 
 
 cw1-6005-yl20e11 (0.1.0) unstable; urgency=low
-
   * modify control file
-
- -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Thu, 22 Feb 2012 
+ -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 00:00:00 -0000
 
 
 
 cw1-6005-yl20e11 (0.0.4) unstable; urgency=low
-
   * build rssReader file under usr/bin/
   * a php script file as a command line to execute software
-
- -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Thu, 22 Feb 2012 
+ -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 00:00:00 -0000
 
 
 
 cw1-6005-yl20e11 (0.0.3) unstable; urgency=low
-
   * use dh-make to generate file models 
   * copy them to a debian folder under root folder
   * changelog, compat, control, copyright, rules 
-
- -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Thu, 22 Feb 2012 
+ -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 00:00:00 -0000
 
 
 
 cw1-6005-yl20e11 (0.0.2) unstable; urgency=low
-
   * commit application file and configure file
   * redirect index.php to configure file 
-
- -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Thu, 22 Feb 2012 
+ -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 00:00:00 -0000
 
 
 
 
 cw1-6005-yl20e11 (0.0.1) unstable; urgency=low
-
   * Creation.
-  * Set up github repository and commit first file README  
-
- -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Thu, 22 Feb 2012 
+  * Set up github repository and commit first file README 
+ -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 00:00:00 -0000
