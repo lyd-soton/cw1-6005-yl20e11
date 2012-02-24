@@ -1,3 +1,10 @@
+cw1-6005-yl20e11 (1.1.0) stable; urgency=low
+  * add manpage file usr/share/man/man8/cw1-6005-yl20e11.8
+  * add cw1-6005-yl20e11.manpages file in debian/
+ -- Yuandong Liang <yl20e11@ecs.soton.ac.uk>  Thu, 23 Feb 2012 00:00:00 -0000
+
+
+
 cw1-6005-yl20e11 (1.0.0) stable; urgency=low
   * using lintian command line to test package
   * modify rules file and usr/bin/rssReader
